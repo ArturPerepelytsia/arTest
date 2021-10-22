@@ -15,7 +15,7 @@ const  WelcomeScreen = ({ navigation }) => {
         Choose View:
       </Text>
       <ButtonsList
-        pressHandler={() => {}}
+        pressHandler={goToArCamera}
       />
       {/* <TouchableOpacity style={styles.button} onPress={goToArCamera}>
         <Text style={styles.buttonText}>Go to AR Camera</Text>

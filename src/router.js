@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import WelcomeScreen from './screens/welcome';
-import ARCameraScreen from './screens/arcamera';
+import ARCameraScreen from './screens/arcamera/';
 
 const Stack = createNativeStackNavigator();
 
